@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript test</title>
+
+    </head>
+    <body>
+        <script>
+            let password
+           let login = prompt("what's your login?")
+           if (login == "Admin") {
+               password = prompt("What is your password?")
+               if (password == "TheMaster") {
+               alert("Welcome!") 
+               }
+
+               else if (password == ("" || null)) {
+                   alert("Login canceled.")
+               }
+               else {
+                   alert("Wrong Password")
+               }
+           }
+           else {
+               alert("I don't know you.")
+           }
+        </script>
+    </body>
+</html>
